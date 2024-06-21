@@ -1,0 +1,28 @@
+{
+  "name": "webmonsimple",
+  "version": "0.0.1",
+  "private": false,
+  "author": "lizhanghua <17839228268@163.com>",
+  "license": "MIT",
+  "description": "A web monitoring error handling module",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api:init": "api-extractor init",
+    "api:run": "api-extractor run"
+  },
+  "dependencies": {
+    "@microsoft/api-extractor": "^7.47.0",
+    "microbundle": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/ua-parser-js": "^0.7.39",
+    "error-stack-parser": "^2.1.4"
+  }
+}
